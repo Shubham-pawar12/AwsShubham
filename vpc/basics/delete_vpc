@@ -8,6 +8,10 @@ else
    export VPC_ID="$1"   
 fi
 
+# dettach the IGW
+
+
+
 # delete VPC
 
 aws ec2 delete-vpc --vpc-id $VPC_ID
